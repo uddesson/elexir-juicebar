@@ -1,0 +1,280 @@
+nav{
+background-image: url(../images/hero-image-mobile-tablet.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: left 0;  
+
+    img{
+    height: 70px;
+    }
+}
+
+
+.navbar{
+padding: 20px;
+min-height: 330px;
+margin-bottom: 20px;
+border: 0px;
+border-radius: 0px;   
+
+    .icon-bar{
+    color: white;
+    }
+
+}
+
+
+.navbar-default{
+border-color: transparent;
+background-color: transparent;
+border-color: transparent;
+
+    .navbar-toggle:focus{
+    background-color: transparent;
+    }
+
+    .navbar-toggle:hover{
+    background-color: transparent;
+    }
+
+    .icon-bar{
+    background-color: white;
+    }
+
+    .navbar-nav li a{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    text-align: right;
+    }
+
+    .navbar-nav li a:hover{
+    color: $profileColorGreen;
+    }
+
+    .navbar-nav li a:focus{
+    color: $profileColorGreen;
+    }
+
+    .navbar-collapse{
+    border-color: transparent;
+    background-color: transparent;
+    }
+
+    .navbar-toggle{
+    border-color: transparent;
+    padding-top: 45px;    
+
+        .icon-bar{
+            background-color: white;
+            display: block;
+            width: 38px;
+            height: 6px;
+            border-radius: 2px;
+    }
+}
+}
+
+
+main{
+
+    h1{
+    font-family: 'Vidaloka', serif;
+    font-size: 3em;
+    line-height: 130%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    }
+
+    h2{
+    font-family: 'Vidaloka', serif;
+    font-size: 2em;
+    padding: 0px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    }
+
+    p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    line-height: 180%;
+    }
+}
+
+
+.services{
+
+    img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    }
+
+    a{
+    text-decoration: underline;
+    color: $profileColorRed;
+    }
+
+    hr{
+    margin-top: 20px;
+    padding: 0px;
+    }
+    }
+
+
+    .contact{
+    padding-top: 40px;
+
+    iframe{
+    width: 100%;
+    height: 300px;
+    }
+
+}
+
+
+form{
+padding-top: 20px;
+padding-bottom: 20px;
+font-family: 'Raleway', sans-serif;
+font-size:1em;
+
+    .btn {
+    font-family: 'Raleway', sans-serif;
+    }
+
+    .btn-primary {
+    background-color: $profileColorRed;
+    border-color: $profileColorRed;
+
+    }
+
+    .btn:hover{
+    background-color: #2d2d2d;
+    border-color: #2d2d2d;
+    }
+
+}
+
+
+.products{
+margin-top: 40px;
+
+    p{
+    text-align: center;
+    }
+
+    #allergies-text{
+    padding-top: 20px;
+    font-style: italic;
+    }
+
+    h1{
+    padding: 0px;
+    }
+
+    .spacefix{
+    padding-bottom: 25px;
+    }
+
+    .rotating-icon-container{
+    padding-top: 20px;
+    width: 60px;
+    margin: 0 auto;
+    display: block;
+    }
+
+    img{
+    width: 100%;
+    }    
+
+    }
+
+
+.about{
+padding-top: 40px;
+
+    img{
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 50%;
+    }
+
+    a{
+    text-decoration: underline;
+    color: $profileColorRed;
+    }
+
+}
+
+
+footer{
+background-color: #2d2d2d;
+margin-top: 100px;
+height: 230px;
+
+    img{
+    width: 100px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    }
+
+        ul{
+        padding-top: 10px; 
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: 0px auto;
+
+            li{
+            color: white;
+            list-style: none;
+            text-decoration: none;
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+
+            a{
+            color: white;
+            list-style: none;
+            text-decoration: none;
+            text-align: center;
+            }
+
+            a:hover{
+            color: $profileColorYellow;
+            text-decoration: underline;
+            }
+
+            a:focus{
+            color: $profileColorYellow;
+            text-decoration: underline;
+            }
+
+            footer p{
+            line-height: 120%;
+            margin: 0px;
+            }
+
+            .fa{
+            font-size: 2em;
+            text-align: center;
+            padding-top: 10px;
+            margin: 5px;
+            }
+
+            #iconlink-one{
+            color: $profileColorGreen;   
+            }
+
+            #iconlink-two{
+            color: $profileColorYellow;   
+            }
+
+            #iconlink-three{
+            color: $profileColorRed;   
+            }    
+
+        }
+   }
+}

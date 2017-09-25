@@ -1,0 +1,17 @@
+//Nav-customization for desktop
+nav{
+background-image: url(../images/hero-image-desktop.jpg); 
+background-size: fill;
+background-repeat: no-repeat;
+background-position: left 0;
+}
+
+.navbar{
+min-height: 470px;
+
+    a{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4em;
+    }
+}
